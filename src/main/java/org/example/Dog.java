@@ -1,13 +1,23 @@
-package org.example;
+public class AnimalInheritance2 {
 
-public class Dog extends Animal{
 
-    public Dog() {
-        String sound = "Dog";
+    private int yearBorn;
+
+    public AnimalInheritance2(){
+
     }
 
-    public static void main(String args[]){
-        Animal obj = new Dog();
-        obj.animalSound();
+
+    public int age(int yearBorn){
+
+        return 2020 - yearBorn;
+
     }
+
+    public void displayAge(){
+
+        System.out.println("The Animal age is: "+yearBorn);
+
+    }
+
 }
