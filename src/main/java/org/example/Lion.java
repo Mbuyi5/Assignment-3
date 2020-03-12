@@ -1,9 +1,8 @@
-package org.example;
+public abstract class AnimalPolymorphism {
 
-public class Lion extends Monkeys{
 
-    @Override
-    public void monkeysSound(){
-        System.out.println("Roar");
-    }
+    public abstract String movement(String moveType);
+
+
+
 }
